@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <!-- TODO: Content goes here -->
+        </div>
+        <img src="logo.png" alt="Логотип">
+          <header>
+            <h1>HTML Elements</h1> <br>
+          </header>
+
+ <nav> <br>
+   <a href="https://careers.epam.ua/">Home</a>
+   <a href="#Header">Headers</a>
+   <a href="#table">Table</a>
+   <a href="#Ul">Lists</a>
+   <a href="#Tf">Textformats</a>
+   <a href="#Bq">Blockquotes</a>
+
+ </nav> <br>
+
+<p>Pay attention to h1 tag inside section element.
+  Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on
+  the page, and it is commonly used inside header</p>
+  <h2> <a name="Header"></a>Header2</h2> <br>
+  <h3>Header3</h3> <br>
+  <h4>Header4</h4> <br>
+  <h5>Header5</h5> <br>
+  <h6>Header6</h6> <br>
+
+<p>Lorem ipsum dolor sit amet, <a href="#">test link</a>test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup>=125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <em>The New York Times</em> (That’s a citation).<u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+
+<p>HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <i>COPY filename.</i> <s>Dinner`s at 5:00.</s> <mark>Let’s make that 7.</mark> This <s>text</s> has been struck.</p> <br>
+
+  <h2><a name="table"></a>Table</h2> <br>
+
+  <style>
+table, th, td {
+  border: 1px solid black;
+  width: 400px;
+  padding: 5px;
+}
+</style>
+
+<table>
+    <tr align="left" >
+      <th>Header</th>
+      <th>Header</th>
+      <th>Header</th>
+    </tr>
+    <tr>
+     <td>Lviv</td>
+     <td>kyiv</td>
+     <td>Kharkiv</td>
+   </tr>
+    <tr>
+      <td>Odessa</td>
+      <td>Zhytomyr</td>
+      <td>Dnipropetrovks</td>
+    </tr>
+    <tr>
+      <td>Sumy</td>
+      <td>Chenivtsi</td>
+      <td>Lutsk</td>
+    </tr>
+  </table>
+  <section> <br>
+    <h1><a name="Ul"></a>Unordered List</h1> <br>
+      <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <ul>
+      <li>Some nested list item 1</li>
+    </ul>
+    <li>List item 3</li>
+      </ul>
+    <h1>Ordered list</h1> <br>
+    <ol>
+      <li>list1</li>
+      <li>List2</li>
+      <ul>A. Some nestes list item1</ul>
+      <li>List item 3</li>
+    </ol>
+
+  </section><br>
+<dl>
+
+ <h1>Definition list</h1> <br>
+  <dt><strong>defines terms</strong></dt>
+  <dd>description 1</dd> <br>
+  <dt><strong>defines terms 2</strong> </dt>
+  <dd>descritpion 2</dd>
+  </dl>
+
+  <form  style="width: 110px;"class="" action="index.html" method="post"><br>
+      <label <span for="lang"><strong>Details</strong></label>
+      <select class="Lang" name="Lang">
+        <option value="html">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS </option>
+      </select>
+  </form><br><br>
+
+  <h1><a name="Tf"></a>Text Formats</h1> <br>
+<article >
+  <p>Article Text</p>
+  <h1>Article title</h1> <br>
+  <sub>Article description</sub> <br><br>
+  </article>
+
+  <h1>Preformatted Text</h1> <br>
+  <pre> <b>Text</b>
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks <br>
+
+
+<h2><b>Code</b></h2>
+
+
+.wrapper {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+ }
+</pre>
+
+<h1><a name="Bq"></a>Blockquotes</h1> <br>
+
+  <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p> <br>
+
+  <blockquote cite="http://">
+    "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to
+    people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all
+     things that would have been considered magic a few hundred years ago." <br>
+     <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA,_%D0%98%D0%BB%D0%BE%D0%BD">Elon Musk</a>
+
+</blockquote>
+
+<form action="/action_page.php">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="surname">Surname: </label>
+  <input type="text" id="surname" name="surname"><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+ <textarea name="name" rows="10" cols="35" placeholder="Comment"></textarea> <br><br>
+
+  <input type="submit" value="Submit"><br><br>
+
+</form>
+
+ <footer>© Copyright Epam Systems</footer><br><br>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
