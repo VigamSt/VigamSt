@@ -1,0 +1,109 @@
+/* 
+
+write your code here
+
+*/
+.tm-section-title {
+	color: lightskyblue;
+}
+
+.tm-section-description::first-letter {
+	color: lightskyblue;
+	font-size: 30px;
+}
+.tm-banner-text::first-letter {
+	color: lightskyblue;
+}
+
+.tm-main-nav,
+.tm-content-box {
+	box-shadow: 0 0 5px 3px rgb(167, 167, 167);
+}
+
+.flex-2-col {
+	display: flex;
+}
+
+section {
+	position: relative;
+}
+
+section:before {
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	background: lightskyblue;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+}
+
+.box-bg:hover {
+	background: lightskyblue;
+}
+.box-bg:hover .tm-box-bg-title {
+	color: white;
+}
+
+.links a:visited {
+	text-decoration: underline;
+}
+
+.links a {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+}
+
+.links a:hover {
+	color: lightskyblue;
+	text-decoration: underline;
+}
+
+.links li:first-child a::after,
+.links li:nth-child(3) a::after {
+	content: 'NEW';
+	font-size: 9px;
+	position: absolute;
+	color: red;
+	top: 0;
+}
+
+.gallery-container {
+	padding: 7px;
+}
+.box {
+	width: 32%;
+}
+.boxes {
+	justify-content: space-between;
+}
+
+.mandatory-field {
+	position: relative;
+}
+
+.mandatory-field::after {
+	content: '*';
+	position: absolute;
+	font-weight: 500;
+	color: red;
+	font-size: 20px;
+	top: 0;
+	right: 4px;
+}
+
+.submit-btn {
+	display: block;
+	margin: 0 auto;
+	border-radius: 0;
+	border: 0;
+}
+
+.submit-btn:hover {
+	background: lightskyblue;
+	border: 0;
+}
+
+.tm-nav-item:hover {
+	background-color: rgb(197, 197, 197);
+}

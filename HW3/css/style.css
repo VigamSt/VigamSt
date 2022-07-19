@@ -1,0 +1,284 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Your code goes here */
+
+section {
+  margin-bottom: 30px;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #027bff;
+}
+
+#content-container-wrapper {
+  background-color: #f4f4f4;
+}
+
+#content-container {
+  width: 62.5%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-2-cols-of_equal-width > .mg-2p {
+  flex-basis: 46%;
+}
+
+.flex-2-cols-of_equal-width > :not(.mg-2p) {
+  flex-basis: 50%;
+}
+
+.mg-a {
+  margin: auto;
+}
+
+.mg-2p {
+  margin: 2%;
+}
+
+.round-border {
+  border-radius: 50%;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.flex-container h3, p, button {
+  margin: 10px 0;
+}
+
+.flex-align-self-end {
+  align-self: flex-end;
+}
+
+.flex-align-self-center {
+  align-self: center;
+}
+
+.flex-container__element_filling-free-space {
+  flex: 1 1 auto;
+}
+
+button, input[type="submit"] {
+  color: white;
+  background-color: #019999;
+  border-width: 0;
+  padding: 20px 50px;
+}
+
+h2 {
+  color: white
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-76cdd8 {
+  background-color: #76cdd8;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.c-76cdd8 {
+  color: #76cdd8;
+}
+
+.c-white {
+  color: white;
+}
+
+.flex-2-cols-of_different-width-1 > .col-1.mg-2p {
+  flex-basis: 63.916%;
+}
+
+.flex-2-cols-of_different-width-1 > .col-1:not(.mg-2p) {
+  flex-basis: 67.916%;
+}
+
+.flex-2-cols-of_different-width-1 > .col-2.mg-2p {
+  flex-basis: 28.083%;
+}
+
+.flex-2-cols-of_different-width-1 > .col-2:not(.mg-2p) {
+  flex-basis: 32.083%;
+}
+
+.flex-2-cols-of_different-width-2 > .col-1 {
+  flex-basis: 33.333%;
+}
+
+.flex-2-cols-of_different-width-2 > .col-2 {
+  flex-basis: 66.666%;
+}
+
+.plan-card {
+  box-sizing: border-box;
+  border: #019999 solid 2px;
+}
+
+.plan_card_header {
+  align-items: center;
+}
+
+.bg-019999 {
+  background-color: #019999;
+}
+
+.flex-justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-2-cols-of_equal-width-2 > * {
+  flex-basis: 45%;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.mgv-10px {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mgh-20px {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.application-form {
+  position: relative;
+}
+
+.application-form-content {
+  height: 540px;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+
+.application-form-content > header {
+  color: white;
+  flex-grow: 1;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  height: 300px;
+}
+
+.application-form-content > footer {
+  color: white
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+input:not([type="submit"]), select {
+  max-width: 200px;
+  height: 35px;
+  padding: 1px 2px;
+  box-sizing: border-box;
+}
+
+select, ::placeholder {
+  color: #666666;
+}
+
+textarea {
+  resize: vertical;
+  width: 100%;
+  height: 100%;
+  min-height: 50%;
+  max-height: 200px;
+}
+
+.c-666666 {
+  color: #666666;
+}
+
+.c-7b7b7b {
+  color: #7b7b7b;
+}
+
+.section-1, .section-2, .section-3 {
+  position: relative;
+}
+
+.section-1:hover p, .section-2:hover p, .section-3:hover p {
+  color: #76cdd8;
+}
+
+.section-1:hover::before, .section-3:hover::before {
+  content: '';
+  position: absolute;
+  right: 0;
+	border: 10px solid transparent;
+	border-right: 10px solid lightskyblue;
+	border-top: 10px solid lightskyblue;
+}
+
+.section-2:hover::before {
+  content: '';
+  position: absolute;
+	border: 10px solid transparent;
+	border-left: 10px solid lightskyblue;
+	border-top: 10px solid lightskyblue;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: rgb(118, 205, 216);
+}
+
+.section-3:hover img, .section-4:hover img, .section-5:hover img {
+  transform: scale(1.1);
+}
+
+.plan-card:hover {
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.plan-card:hover button {
+  background-color: #24d4d4;
+}
+
+.advanced-plan-card:hover::after {
+  content: '*Special discount';
+  color: red;
+  text-align: center;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #24d4d4;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}

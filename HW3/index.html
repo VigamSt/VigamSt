@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+    <div id="content-container-wrapper">
+      <div id="content-container">
+        <section class="flex-container flex-2-cols-of_equal-width bg-white">
+          <div class="flex-container bg-76cdd8">
+            <h2 class="mg-a">Epam</h2>
+          </div>
+          <div class="section-1">
+            <div class="mg-2p">
+              <p class="c-666666"><em>We help customers around the world become competitive – and stay competitive. We combine best-in-class software engineering with digital strategy and experience design, business consulting and technology innovation services.</em></p>
+            </div>
+          </div>
+          <div class="flex-container section-2">
+            <div class="flex-container flex-dir-col flex-justify-space-between mg-2p">
+              <h3 class="c-76cdd8">Learn-From-Home Services for Enterprises</h3>
+              <p class="c-666666">As the travel industry addresses some of the major challenges that emerged as a result of the pandemic, airlines can turn to intelligent automation to improve experiences and operations.</p>
+              <button class="flex-align-self-end">READ MORE</button>
+            </div>
+          </div>
+          <div class="bg-76cdd8">
+            <div class="flex-container flex-dir-col mg-2p" style="height: 96%;">
+              <img src="img/image-04.jpg" alt="image-04.jpg" class="round-border flex-container__element_filling-free-space">
+              <p class="c-white">Epic Games: Transforming the Gaming Industry</p>
+            </div>
+          </div>
+          <div class="flex-container section-3">
+            <img src="img/image-01.jpg" alt="image-01.jpg">
+          </div>
+          <div class="flex-container section-3">
+            <div class="flex-container flex-dir-col flex-justify-space-between mg-2p">
+              <h3 class="c-7b7b7b">Architecting Security into Your Modern Enterprise</h3>
+              <p class="c-666666">It's time to engineer a trusted future through strategically architected cybersecurity. <a href="https://www.epam.com/">Epam</a> website. Thank you.</p>
+              <button class="flex-align-self-center">READ MORE</button>
+            </div>
+          </div>
+        </section>
+        <section class="flex-container flex-2-cols-of_different-width-1 bg-white section-4">
+          <div class="flex-container flex-dir-col flex-justify-space-between col-1 mg-2p">
+            <h3 class="c-76cdd8">Lorem ipsum dolor sit.</h3>
+            <p class="c-666666">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+            <p class="c-666666">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+            <p class="c-666666">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+            <button class="flex-align-self-end">READ MORE</button>
+          </div>
+          <div class="flex-container col-2">
+            <img src="img/image-02.jpg" alt="image-02.jpg">
+          </div>
+        </section>
+        <section class="flex-container flex-2-cols-of_different-width-2 bg-white section-5">
+          <div class="flex-container col-1">
+            <img src="img/image-03.jpg" alt="image-03.jpg">
+          </div>
+          <div class="flex-container flex-2-cols-of_equal-width-2 flex-justify-space-evenly flex-align-items-center col-2">
+            <div class="flex-container flex-dir-col plan-card mgv-10px">
+              <header class="flex-container flex-dir-col plan_card_header bg-019999">
+                <h3 class="c-white">Standard Plan</h3>
+                <p class="c-white">($25 per month)</p>
+              </header>
+              <div class="flex-container flex-dir-col mg-a c-666666">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem dolor</p>
+              </div>
+              <div class="flex-container flex-dir-col">
+                <button class="flex-align-self-center">BUY NOW</button>
+              </div>
+            </div>
+            <div class="flex-container flex-dir-col plan-card advanced-plan-card mgv-10px">
+              <header class="flex-container flex-dir-col plan_card_header bg-019999">
+                <h3 class="c-white">Advanced Plan</h3>
+                <p class="c-white">($40 per month)</p>
+              </header>
+              <div class="flex-container flex-dir-col mg-a c-666666">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem dolor</p>
+              </div>
+              <div class="flex-container flex-dir-col">
+                <button class="flex-align-self-center">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="application-form flex-container flex-dir-col">
+          <div style="height: 120px; background-color: #23d4d4"></div>
+          <div style="height: 240px;"></div>
+          <div style="height: 180px; background-color: #019999"></div>
+          <div class="application-form-content flex-container flex-dir-col flex-justify-space-evenly">
+            <header class="flex-container">
+              <h3>Application Form</h3>
+            </header>
+            <form class="flex-container flex-dir-col flex-justify-space-evenly">
+              <div class="flex-container flex-2-cols-of_equal-width-3 flex-justify-space-evenly">
+                <div class="flex-container flex-dir-col flex-justify-space-between">
+                  <input type="text" name="full-name" placeholder="Full Name">
+                  <input type="email" name="email" placeholder="Your Email">
+                  <select name="position">
+                    <option label="Position" value="Position"></option>
+                    <option label="Position" value="Position"></option>
+                  </select>
+                  <select name="salary">
+                    <option label="Salary" value="Salary"></option>
+                    <option label="Salary" value="Salary"></option>
+                  </select>
+                </div>
+                <div>
+                  <textarea placeholder="Additional Message"></textarea>
+                </div>
+              </div>
+              <div class="flex-container flex-justify-center">
+                <input type="submit" name="submit" value="SUBMIT">
+              </div>
+            </form>
+            <footer class="flex-container flex-justify-space-evenly">
+              <div class="mgv-a">
+                <h3>Lorem ipsum dolor</h3>
+                <p>1010 Vivamaus viverra</p>
+                <p>Leo vel porttitor sodales</p>
+                <p>Non eleifend 10980</p>
+              </div>
+              <div class="mgv-a">
+                <p>Maecenas fermentum</p>
+                <p>Nam eu justo et urna</p>
+                <p>Semper maximus libero</p>
+                <p>Etiam magna quam</p>
+              </div>
+            </footer>
+          </div>
+        </section>
+        <footer class="flex-container flex-justify-center c-666666">
+          <p>Copyright © 2020 Your Company Name</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
